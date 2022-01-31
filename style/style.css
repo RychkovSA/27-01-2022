@@ -620,6 +620,7 @@ body {
   background-color: transparent;
   border: none;
   color: #6F6E6E;
+  cursor: pointer;
 }
 
 .trending::after {
@@ -638,6 +639,7 @@ body {
   background-color: transparent;
   border: none;
   color: #6F6E6E;
+  cursor: pointer;
 }
 
 .size::after {
@@ -656,6 +658,7 @@ body {
   background-color: transparent;
   border: none;
   color: #6F6E6E;
+  cursor: pointer;
 }
 
 .price::after {
