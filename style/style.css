@@ -760,9 +760,147 @@ body {
 
 .about-wrap {
   margin-top: -55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about {
   height: 601px;
+}
+
+.women-col {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  text-align: center;
+}
+
+.box1 {
+  width: 63px;
+  height: 3px;
+  background-color: #EF5B70;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.moschino {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  margin-bottom: 48px;
+}
+
+.compellingly {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5E5E5E;
+  width: 555px;
+  margin-bottom: 32px;
+}
+
+.price-1 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+  margin-bottom: 64px;
+}
+
+.box2 {
+  width: 642px;
+  height: 1px;
+  background-color: #EAEAEA;
+  margin-bottom: 64px;
+}
+
+.choice-buttons-2 {
+  width: 380px;
+}
+
+.choose-color {
+  font-size: 14px;
+  line-height: 17px;
+  background-color: transparent;
+  border: none;
+  color: #6F6E6E;
+  cursor: pointer;
+}
+
+.choose-color::after {
+  content: "\203A";
+  color: #6F6E6E;
+  margin-left: 9px;
+  display: inline-block;
+  margin-right: 23px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.choose-size {
+  font-size: 14px;
+  line-height: 17px;
+  background-color: transparent;
+  border: none;
+  color: #6F6E6E;
+  cursor: pointer;
+}
+
+.choose-size::after {
+  content: "\203A";
+  color: #6F6E6E;
+  margin-left: 9px;
+  display: inline-block;
+  margin-right: 23px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.choose-price {
+  font-size: 14px;
+  line-height: 17px;
+  background-color: transparent;
+  border: none;
+  color: #6F6E6E;
+  cursor: pointer;
+}
+
+.choose-price::after {
+  content: "\203A";
+  color: #6F6E6E;
+  margin-left: 9px;
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.cart-button-red {
+  margin-top: 48px;
+  background-color: transparent;
+  color: #F26376;
+  border-color: #F26376;
+  padding: 15px 57px 9px 24px;
+}
+
+.cart-button-red::after {
+  content: "Add to Cart";
+  color: #F26376;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 19px;
 }
 /*# sourceMappingURL=style.css.map */
