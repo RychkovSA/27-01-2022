@@ -522,12 +522,6 @@ body{
 .products-wrap2{
     height: 581px;
 }
-.wrap {
-	width: 600px;
-	margin: 0 auto;
-	border: 1px solid red;
-}
-
 .slider {
 	background-color: #F7F7F7;
 	width: 100%;
@@ -536,17 +530,12 @@ body{
 	align-items: center;
 
 	padding-bottom: $shift;
-	
-		&-img {
-			border: 3px solid cyan; /*вся картинка видна*/
-		}
-	
 		&-btn {
-		background: rgba(42, 42, 42, 0.15);
-		color: #fff;
-		padding: 13px 17px 13px 17px;
-		border: 1px solid #000;
-        fill: #000;
+		    background: rgba(42, 42, 42, 0.15);
+		    color: #fff;
+		    padding: 13px 17px 13px 17px;
+		    border: 1px solid #000;
+            fill: #000;
 		
 			&:hover {
 				fill:#F16D7F;
@@ -566,6 +555,8 @@ body{
 }
 
 .about-wrap {
-	background-color: gold;
 	margin-top: -$shift;
+}
+.about{
+    height: 601px;
 }
