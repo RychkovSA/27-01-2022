@@ -578,11 +578,28 @@ body {
   color: #F16D7F;
 }
 
+.choice {
+  height: 132px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
 .filter {
   background-color: transparent;
   border: none;
-  margin-bottom: 64px;
-  margin-left: 15px;
+  width: 360px;
+}
+
+.choice-buttons {
+  width: 360px;
 }
 
 .products-wrap1 {

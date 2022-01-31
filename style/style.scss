@@ -408,11 +408,21 @@ body{
   text-decoration: underline;
   color: #F16D7F;
 }
+.choice{
+    height: 132px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
 .filter{
     background-color: transparent;
     border: none;
-    margin-bottom: 64px;
-    margin-left: 15px;
+    width: 360px;
+}
+.choice-buttons{
+    width: 360px;
 }
 .products-wrap1{
     height: 1295px;
